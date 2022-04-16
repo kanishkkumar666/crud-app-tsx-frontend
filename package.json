@@ -1,6 +1,6 @@
 {
   "name": "crud-app",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://625aa1ed94cca876ae062a8a--effulgent-youtiao-390d8e.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
