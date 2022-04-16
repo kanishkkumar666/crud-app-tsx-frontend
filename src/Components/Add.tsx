@@ -6,14 +6,14 @@ import { useForm } from "react-hook-form";
 import { useCreateUserMutation } from "../features/counter/userSlicer";
 
 const Add = () => {
-  const [createUser, responseInfo] = useCreateUserMutation();
+  const [createUser] = useCreateUserMutation();
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  let history = useHistory();
+  //let history = useHistory();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [age, setAge] = useState("");
