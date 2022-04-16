@@ -8,12 +8,12 @@ import {
 } from "../features/counter/userSlicer";
 
 const Edit = () => {
-  let history = useHistory();
+  //let history = useHistory();
   let params: any = useParams();
   const id = params.id;
 
   const response = useGetUserByIdQuery(id);
-  const [updateUser, responseInfo] = useUpdateUserMutation();
+  const [updateUser] = useUpdateUserMutation();
 
   const {
     register,
