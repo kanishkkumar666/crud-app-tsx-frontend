@@ -9,7 +9,7 @@ const Users = () => {
 
   const users = responseInfo.data;
 
-  const [deleteUser, response] = useDeleteUserMutation();
+  const [deleteUser] = useDeleteUserMutation();
 
   return (
     <React.Fragment>
