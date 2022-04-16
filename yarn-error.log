@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\KANISHK KUMAR\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\KANISHK KUMAR\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\KANISHK KUMAR\bin;C:\Python39\Scripts;C:\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\KANISHK KUMAR\AppData\Local\Microsoft\WindowsApps;C:\Users\KANISHK KUMAR\AppData\Roaming\Composer\vendor\bin;C:\Users\KANISHK KUMAR\AppData\Roaming\npm;C:\Users\KANISHK KUMAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ant-design/icons/-/icons-4.7.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\KANISHK KUMAR\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (node:events:471:28)
+      at ClientRequest.emit (node:events:365:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:471:28)
+      at TLSSocket.emit (node:events:377:35)
+      at TLSSocket.Socket._onTimeout (node:net:475:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "crud-app",
+    "proxy": "http://localhost:3001",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@chakra-ui/select": "^1.2.3",
+      "@reduxjs/toolkit": "^1.7.1",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "@types/jest": "^27.4.0",
+      "@types/node": "^16.11.19",
+      "@types/react": "^17.0.38",
+      "@types/react-dom": "^17.0.11",
+      "@types/react-redux": "^7.1.21",
+      "@types/react-router": "^5.1.17",
+      "@types/react-router-bootstrap": "^0.24.5",
+      "@types/react-router-dom": "^5.3.2",
+      "antd": "^4.18.3",
+      "axios": "^0.24.0",
+      "react": "^17.0.2",
+      "react-bootstrap": "^2.1.0",
+      "react-dom": "^17.0.2",
+      "react-hook-form": "^7.24.0",
+      "react-redux": "^7.2.6",
+      "react-router-bootstrap": "^0.25.0",
+      "react-router-dom": "^5.3.0",
+      "react-scripts": "5.0.0",
+      "routes": "^2.1.0",
+      "typescript": "^4.5.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
