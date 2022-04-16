@@ -10,11 +10,11 @@ import { store } from './app/store';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React>
+  <React.Fragment>
     <Provider store={store}>
       <App />
     </Provider>
-  </React>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
