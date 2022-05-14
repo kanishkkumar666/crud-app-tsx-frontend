@@ -4,7 +4,8 @@ export const usersApi = createApi({
   reducerPath: "usersApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3000",
+//     baseUrl: "http://localhost:3000",
+    baseUrl:"https://app.netlify.com/sites/effulgent-youtiao-390d8e/deploys/625aa1ed94cca876ae062a8a",
   }),
 
   endpoints: (builder) => ({
