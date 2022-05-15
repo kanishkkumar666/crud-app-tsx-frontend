@@ -5,7 +5,7 @@ export const usersApi = createApi({
 
   baseQuery: fetchBaseQuery({
 //     baseUrl: "http://localhost:3000",
-    baseUrl:"https://app.netlify.com/sites/effulgent-youtiao-390d8e/deploys/625aa1ed94cca876ae062a8a",
+    baseUrl:"https://beautiful-marigold-63db01.netlify.app",
   }),
 
   endpoints: (builder) => ({
